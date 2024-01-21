@@ -374,6 +374,8 @@ he RSHIFT 2 -> hf"""
 #NOPE! Cheated. Not following bitwise logic
 #https://www.reddit.com/r/adventofcode/comments/3vr4m4/day_7_solutions/
 
+commands = input.split('\n')
+
 ### Part 1 --
 calc = dict()
 results = dict()
